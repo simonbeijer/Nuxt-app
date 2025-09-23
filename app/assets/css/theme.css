@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+    --font-sans: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --background: oklch(95% 0.05 100);
+    --foreground: oklch(25% 0.02 260);
+    --primary: oklch(65% 0.20 210);
+    --accent: oklch(75% 0.15 160);
+    --secondary: oklch(80% 0.08 190);
+    --shadow: 0px 2px 6px oklch(0% 0 0 / 0.15);
+
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
