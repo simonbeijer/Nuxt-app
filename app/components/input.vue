@@ -20,10 +20,11 @@ function setInput(e: Event) {
 input {
     border: none;
     border-radius: 5px;
-    width: 300px;
-    height: 30px;
+    width: 320px;
+    height: 34px;
     box-shadow: var(--shadow);
     font-size: 1.1rem;
+    padding-left: 12px;
 }
 
 </style>
